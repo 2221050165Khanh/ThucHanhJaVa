@@ -8,6 +8,7 @@ public class Slide30Chuong2 {
         int n = scanner.nextInt();
 
         int tongChuSo = tinhTongChuSo(n);
+        scanner.close();
 
         // In kết quả
         System.out.println("Tong cua  " + n + " là: " + tongChuSo);
